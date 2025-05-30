@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'STM32G474RET6'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "STMicroelectronics", "STM32G474RET6" (!) = "", "QFP50P1200X1200X160-64N", "Quad Flat Packages", "511-STM32G474RET6", "https://www.mouser.co.uk/ProductDetail/STMicroelectronics/STM32G474RET6?qs=PzGy0jfpSMvUBs7PMTDqlg%3D%3D", "STM32G474RET6", "https://www.arrow.com/en/products/stm32g474ret6/stmicroelectronics?utm_currency=USD&region=nac", "ARM Microcontrollers - MCU", "https://www.st.com/resource/en/datasheet/stm32g474re.pdf", "1.6 mm"
+END_PART
+
+END.

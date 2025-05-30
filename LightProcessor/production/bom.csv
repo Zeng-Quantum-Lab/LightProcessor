@@ -1,0 +1,12 @@
+﻿Designator,Footprint,Quantity,Value,LCSC Part #
+"ADC1, ADC2, ADC3, ADC4, ADC5",BNC_TEConnectivity_1478035_Horizontal,5,Conn_Coaxial,
+"C1, C3, C5, C7",0805,4,4.7u,
+"C11, C18, C19",0805,3,1u,
+"C15, C2, C21, C4, C6, C8",0805,6,0.1u,
+"C17, C20",0805,2,12p,
+IC1,QFP50P1200X1200X160-64N,1,STM32G474RET6,
+J1,USB_C_Receptacle_Amphenol_124019772112A,1,USB_C_Receptacle_USB2.0_16P,
+SW10,SW_PUSH_6mm,1,Tactile_6mm,
+U1,STLink_V3MODS,1,STLINK-V3MODS,
+U3,SOT-23-5,1,AP2112K-3.3,
+Y1,Crystal_SMD_2520-4Pin_2.5x2.0mm,1,16MHz,
