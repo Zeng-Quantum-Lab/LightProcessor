@@ -255,6 +255,396 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Amplifier_Operational:LM324"
+			(pin_names
+				(offset 0.127)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "LM324"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.27 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf"
+				(at 1.27 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Low-Power, Quad-Operational Amplifiers, DIP-14/SOIC-14/SSOP-14"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "quad opamp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOIC*3.9x8.7mm*P1.27mm* DIP*W7.62mm* TSSOP*4.4x5mm*P0.65mm* SSOP*5.3x6.2mm*P0.65mm* MSOP*3x3mm*P0.5mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LM324_1_1"
+				(polyline
+					(pts
+						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "LM324_2_1"
+				(polyline
+					(pts
+						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "LM324_3_1"
+				(polyline
+					(pts
+						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "LM324_4_1"
+				(polyline
+					(pts
+						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "LM324_5_1"
+				(pin power_in line
+					(at -2.54 7.62 270)
+					(length 3.81)
+					(name "V+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -2.54 -7.62 90)
+					(length 3.81)
+					(name "V-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector:Conn_Coaxial"
 			(pin_names
 				(offset 1.016)
@@ -5709,6 +6099,110 @@
 		)
 	)
 	(symbol
+		(lib_id "Amplifier_Operational:LM324")
+		(at 176.53 45.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "16024dc8-a485-420e-bfe5-32f1e91e98bb")
+		(property "Reference" "U2"
+			(at 176.53 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LM324"
+			(at 176.53 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 175.26 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf"
+			(at 177.8 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Low-Power, Quad-Operational Amplifiers, DIP-14/SOIC-14/SSOP-14"
+			(at 176.53 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "9"
+			(uuid "290cd674-7257-4f46-8f2b-6681964ee8b8")
+		)
+		(pin "2"
+			(uuid "91de5df5-355d-4b8c-8de6-5cf23e74bfe6")
+		)
+		(pin "1"
+			(uuid "7fd65f55-0a2b-4867-9829-a0cb21acc5e5")
+		)
+		(pin "3"
+			(uuid "a1436466-c1ab-4783-9b3e-a9bb017ac842")
+		)
+		(pin "5"
+			(uuid "5e44db72-8108-4a18-b033-2a35b261bedb")
+		)
+		(pin "6"
+			(uuid "3daa5115-4dea-4ec8-ad5e-219ca964be1d")
+		)
+		(pin "7"
+			(uuid "61d62bc9-34d2-4c40-9714-f3e7daa1b732")
+		)
+		(pin "10"
+			(uuid "704c4a17-8ec7-40e9-a920-a1304eeecbf5")
+		)
+		(pin "8"
+			(uuid "dce37a9c-7bb4-48ad-a5fe-87c9ddd76d92")
+		)
+		(pin "13"
+			(uuid "e4f38fb2-f921-4bd0-b9ab-79e942e92a53")
+		)
+		(pin "14"
+			(uuid "5ef79c69-5990-44ae-b003-17351ba866ba")
+		)
+		(pin "4"
+			(uuid "400808ff-17e7-47fa-81b1-8f447e38d0b3")
+		)
+		(pin "12"
+			(uuid "1ee157ce-2821-40f9-9a8f-a9379fa221f9")
+		)
+		(pin "11"
+			(uuid "197f1c36-8d86-4741-927c-6b850a2161b8")
+		)
+		(instances
+			(project ""
+				(path "/eeaa7473-fa25-47b9-949e-2277f05bfce9"
+					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 57.15 104.14 270)
 		(unit 1)
@@ -5771,6 +6265,110 @@
 				(path "/eeaa7473-fa25-47b9-949e-2277f05bfce9"
 					(reference "#PWR046")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:LM324")
+		(at 173.99 87.63 0)
+		(unit 3)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "238a7ea0-fa2d-4697-9c39-e2be3e95c58c")
+		(property "Reference" "U2"
+			(at 173.99 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LM324"
+			(at 173.99 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 172.72 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf"
+			(at 175.26 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Low-Power, Quad-Operational Amplifiers, DIP-14/SOIC-14/SSOP-14"
+			(at 173.99 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "68a45794-7773-4845-979c-6054a0ff79c6")
+		)
+		(pin "6"
+			(uuid "a32db3c1-6a69-4862-a8d8-153c35535509")
+		)
+		(pin "8"
+			(uuid "f82be337-334c-4c4e-98d3-4ac64cfe2076")
+		)
+		(pin "2"
+			(uuid "6e9d16ea-0de3-4415-8fc7-658025fae9b3")
+		)
+		(pin "1"
+			(uuid "3d6d7b63-a17b-4d06-be3f-c72e9f902cf1")
+		)
+		(pin "3"
+			(uuid "0ffe13a5-5e1a-4363-8acb-7d3e310e6f31")
+		)
+		(pin "7"
+			(uuid "edd9ff60-3b3f-4c80-8dd8-7f5f388e41b2")
+		)
+		(pin "10"
+			(uuid "2803c76b-e460-4870-97ba-7a54e72eb51f")
+		)
+		(pin "9"
+			(uuid "c79fbb07-2455-494a-baca-078d621f5c52")
+		)
+		(pin "12"
+			(uuid "d75daefb-bc0b-428c-b04f-21d48b908594")
+		)
+		(pin "13"
+			(uuid "3b22d89a-ebec-4fa5-a8a8-8e9c0fafe47c")
+		)
+		(pin "11"
+			(uuid "1804ee80-ee5e-4fff-b2a8-854288ac882a")
+		)
+		(pin "4"
+			(uuid "2ba7a84c-d162-495a-8f52-0077f4f0599d")
+		)
+		(pin "14"
+			(uuid "2389ebb4-7deb-460f-baa1-698c51af9b41")
+		)
+		(instances
+			(project ""
+				(path "/eeaa7473-fa25-47b9-949e-2277f05bfce9"
+					(reference "U2")
+					(unit 3)
 				)
 			)
 		)
@@ -7519,6 +8117,110 @@
 		)
 	)
 	(symbol
+		(lib_id "Amplifier_Operational:LM324")
+		(at 175.26 67.31 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "73dc9173-feb4-48ee-a72b-d0adc9ac05b5")
+		(property "Reference" "U2"
+			(at 175.26 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LM324"
+			(at 175.26 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 173.99 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf"
+			(at 176.53 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Low-Power, Quad-Operational Amplifiers, DIP-14/SOIC-14/SSOP-14"
+			(at 175.26 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "68a45794-7773-4845-979c-6054a0ff79c6")
+		)
+		(pin "6"
+			(uuid "a32db3c1-6a69-4862-a8d8-153c35535509")
+		)
+		(pin "8"
+			(uuid "f82be337-334c-4c4e-98d3-4ac64cfe2076")
+		)
+		(pin "2"
+			(uuid "6e9d16ea-0de3-4415-8fc7-658025fae9b3")
+		)
+		(pin "1"
+			(uuid "3d6d7b63-a17b-4d06-be3f-c72e9f902cf1")
+		)
+		(pin "3"
+			(uuid "0ffe13a5-5e1a-4363-8acb-7d3e310e6f31")
+		)
+		(pin "7"
+			(uuid "edd9ff60-3b3f-4c80-8dd8-7f5f388e41b2")
+		)
+		(pin "10"
+			(uuid "2803c76b-e460-4870-97ba-7a54e72eb51f")
+		)
+		(pin "9"
+			(uuid "c79fbb07-2455-494a-baca-078d621f5c52")
+		)
+		(pin "12"
+			(uuid "d75daefb-bc0b-428c-b04f-21d48b908594")
+		)
+		(pin "13"
+			(uuid "3b22d89a-ebec-4fa5-a8a8-8e9c0fafe47c")
+		)
+		(pin "11"
+			(uuid "1804ee80-ee5e-4fff-b2a8-854288ac882a")
+		)
+		(pin "4"
+			(uuid "2ba7a84c-d162-495a-8f52-0077f4f0599d")
+		)
+		(pin "14"
+			(uuid "2389ebb4-7deb-460f-baa1-698c51af9b41")
+		)
+		(instances
+			(project ""
+				(path "/eeaa7473-fa25-47b9-949e-2277f05bfce9"
+					(reference "U2")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "ST-Link_V3:STLink-V3MODS")
 		(at 330.2 38.1 0)
 		(unit 1)
@@ -8703,6 +9405,110 @@
 		)
 	)
 	(symbol
+		(lib_id "Amplifier_Operational:LM324")
+		(at 173.99 110.49 0)
+		(unit 4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b0d1925a-9ccd-4650-b72c-67cbd2b85dd5")
+		(property "Reference" "U2"
+			(at 173.99 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LM324"
+			(at 173.99 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 172.72 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf"
+			(at 175.26 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Low-Power, Quad-Operational Amplifiers, DIP-14/SOIC-14/SSOP-14"
+			(at 173.99 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "68a45794-7773-4845-979c-6054a0ff79c6")
+		)
+		(pin "6"
+			(uuid "a32db3c1-6a69-4862-a8d8-153c35535509")
+		)
+		(pin "8"
+			(uuid "f82be337-334c-4c4e-98d3-4ac64cfe2076")
+		)
+		(pin "2"
+			(uuid "6e9d16ea-0de3-4415-8fc7-658025fae9b3")
+		)
+		(pin "1"
+			(uuid "3d6d7b63-a17b-4d06-be3f-c72e9f902cf1")
+		)
+		(pin "3"
+			(uuid "0ffe13a5-5e1a-4363-8acb-7d3e310e6f31")
+		)
+		(pin "7"
+			(uuid "edd9ff60-3b3f-4c80-8dd8-7f5f388e41b2")
+		)
+		(pin "10"
+			(uuid "2803c76b-e460-4870-97ba-7a54e72eb51f")
+		)
+		(pin "9"
+			(uuid "c79fbb07-2455-494a-baca-078d621f5c52")
+		)
+		(pin "12"
+			(uuid "d75daefb-bc0b-428c-b04f-21d48b908594")
+		)
+		(pin "13"
+			(uuid "3b22d89a-ebec-4fa5-a8a8-8e9c0fafe47c")
+		)
+		(pin "11"
+			(uuid "1804ee80-ee5e-4fff-b2a8-854288ac882a")
+		)
+		(pin "4"
+			(uuid "2ba7a84c-d162-495a-8f52-0077f4f0599d")
+		)
+		(pin "14"
+			(uuid "2389ebb4-7deb-460f-baa1-698c51af9b41")
+		)
+		(instances
+			(project ""
+				(path "/eeaa7473-fa25-47b9-949e-2277f05bfce9"
+					(reference "U2")
+					(unit 4)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 33.02 60.96 0)
 		(unit 1)
@@ -9174,6 +9980,112 @@
 				(path "/eeaa7473-fa25-47b9-949e-2277f05bfce9"
 					(reference "C21")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:LM324")
+		(at 179.07 130.81 0)
+		(unit 5)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c8cc0215-44ca-4031-857e-5e4f9cc7e6ee")
+		(property "Reference" "U2"
+			(at 177.8 129.5399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "LM324"
+			(at 177.8 132.0799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 177.8 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf"
+			(at 180.34 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Low-Power, Quad-Operational Amplifiers, DIP-14/SOIC-14/SSOP-14"
+			(at 179.07 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "68a45794-7773-4845-979c-6054a0ff79c6")
+		)
+		(pin "6"
+			(uuid "a32db3c1-6a69-4862-a8d8-153c35535509")
+		)
+		(pin "8"
+			(uuid "f82be337-334c-4c4e-98d3-4ac64cfe2076")
+		)
+		(pin "2"
+			(uuid "6e9d16ea-0de3-4415-8fc7-658025fae9b3")
+		)
+		(pin "1"
+			(uuid "3d6d7b63-a17b-4d06-be3f-c72e9f902cf1")
+		)
+		(pin "3"
+			(uuid "0ffe13a5-5e1a-4363-8acb-7d3e310e6f31")
+		)
+		(pin "7"
+			(uuid "edd9ff60-3b3f-4c80-8dd8-7f5f388e41b2")
+		)
+		(pin "10"
+			(uuid "2803c76b-e460-4870-97ba-7a54e72eb51f")
+		)
+		(pin "9"
+			(uuid "c79fbb07-2455-494a-baca-078d621f5c52")
+		)
+		(pin "12"
+			(uuid "d75daefb-bc0b-428c-b04f-21d48b908594")
+		)
+		(pin "13"
+			(uuid "3b22d89a-ebec-4fa5-a8a8-8e9c0fafe47c")
+		)
+		(pin "11"
+			(uuid "1804ee80-ee5e-4fff-b2a8-854288ac882a")
+		)
+		(pin "4"
+			(uuid "2ba7a84c-d162-495a-8f52-0077f4f0599d")
+		)
+		(pin "14"
+			(uuid "2389ebb4-7deb-460f-baa1-698c51af9b41")
+		)
+		(instances
+			(project ""
+				(path "/eeaa7473-fa25-47b9-949e-2277f05bfce9"
+					(reference "U2")
+					(unit 5)
 				)
 			)
 		)
