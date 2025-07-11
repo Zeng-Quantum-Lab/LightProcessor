@@ -1,0 +1,6 @@
+/home/khoi-anh-nguyen/Projects/LightProcessor/build/Debug/CMakeFiles/LightProcessor.dir
+/home/khoi-anh-nguyen/Projects/LightProcessor/build/Debug/CMakeFiles/edit_cache.dir
+/home/khoi-anh-nguyen/Projects/LightProcessor/build/Debug/CMakeFiles/rebuild_cache.dir
+/home/khoi-anh-nguyen/Projects/LightProcessor/build/Debug/cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir
+/home/khoi-anh-nguyen/Projects/LightProcessor/build/Debug/cmake/stm32cubemx/CMakeFiles/edit_cache.dir
+/home/khoi-anh-nguyen/Projects/LightProcessor/build/Debug/cmake/stm32cubemx/CMakeFiles/rebuild_cache.dir
