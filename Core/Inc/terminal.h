@@ -1,7 +1,7 @@
 #ifndef TERMINAL_H
 #define TERMINAL_H
 
-#include "stm32f0xx.h"
+#include "stm32g4xx.h"
 #include <stdint.h>
 #include <stdio.h>
 #include "terminal.h"

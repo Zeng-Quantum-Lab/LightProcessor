@@ -8,12 +8,12 @@
 int __io_putchar(int c) {
     // TODO Copy from your STEP2
     if (c == '\n'){
-        while(!(USART5->ISR & USART_ISR_TXE));
-        USART5->TDR = '\r';
+        while(!(UART5->ISR & USART_ISR_TXE));
+        UART5->TDR = '\r';
     }
 
-    while(!(USART5->ISR & USART_ISR_TXE));
-    USART5->TDR = c;
+    while(!(UART5->ISR & USART_ISR_TXE));
+    UART5->TDR = c;
     return c;
 }
 

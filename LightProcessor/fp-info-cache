@@ -1,4 +1,11 @@
-26103509294522102
+26112262526158920
+5415025-2
+CONN BNC JACK RA 50 OHM PCB
+
+
+0
+5
+2
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -66681,6 +66688,13 @@ Yellow 5381 Series LED
 0
 2
 2
+LM324N_NOPB
+DIP825W47P254L1917H533Q14
+
+
+0
+14
+14
 Module
 A20_OLINUXINO_LIME2
 A20 Olinuxino LIME2, 1.2GHz, 512-1024MB RAM, Micro-SD, NAND or eMMC, 1000Mbit Ethernet
@@ -74346,6 +74360,13 @@ Kailh KH CPG1425 Keyboard Low Profile Notebook Keyswitch Switch Cutout Keycap IS
 0
 2
 2
+PJ_202B
+CUI_PJ-202B
+
+
+0
+3
+3
 Package_BGA
 Alliance_TFBGA-36_6x8mm_Layout6x8_P0.75mm
 Alliance TFBGA-36, NSMD, 6.0x8.0mm, 36 Ball, 6x8 Layout, 0.75mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, https://www.alliancememory.com/wp-content/uploads/pdf/AS6C1008_Mar_2023V1.2.pdf#page=13
@@ -95948,6 +95969,20 @@ rotary encoder illuminated switch vertical
 0
 9
 8
+SLW_1478144_5A_S_D
+SW_SLW-1478144-5A-S-D
+
+
+0
+7
+7
+SN74HC4066N
+N14
+
+SN74HC4066N 
+0
+14
+14
 ST-Link_V3
 STLink_V3MODS
 
