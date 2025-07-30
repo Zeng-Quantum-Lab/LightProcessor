@@ -60,8 +60,8 @@ all: main-build
 main-build: LightProcessor.elf secondary-outputs
 
 # Tool invocations
-LightProcessor.elf LightProcessor.map: $(OBJS) $(USER_OBJS) D:\Projects\LightProcessor\STM32G474RETX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
-	arm-none-eabi-gcc -o "LightProcessor.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m4 -T"D:\Projects\LightProcessor\STM32G474RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="LightProcessor.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+LightProcessor.elf LightProcessor.map: $(OBJS) $(USER_OBJS) /home/khoi-anh-nguyen/Projects/LightProcessor/STM32G474RETX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
+	arm-none-eabi-gcc -o "LightProcessor.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m4 -T"/home/khoi-anh-nguyen/Projects/LightProcessor/STM32G474RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="LightProcessor.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
 	@echo 'Finished building target: $@'
 	@echo ' '
 
