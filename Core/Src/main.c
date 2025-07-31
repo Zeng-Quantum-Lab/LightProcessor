@@ -595,7 +595,7 @@ static void MX_UART5_Init(void)
   huart5.Init.OneBitSampling = UART_ONE_BIT_SAMPLE_DISABLE;
   huart5.Init.ClockPrescaler = UART_PRESCALER_DIV1;
   huart5.AdvancedInit.AdvFeatureInit = UART_ADVFEATURE_NO_INIT;
-  if (HAL_MultiProcessor_Init(&huart5, 0, UART_WAKEUPMETHOD_IDLELINE) != HAL_OK)
+  if (HAL_UART_Init(&huart5) != HAL_OK)
   {
     Error_Handler();
   }

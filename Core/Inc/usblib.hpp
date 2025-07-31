@@ -1,15 +1,18 @@
 /*
  * usblib.hpp
  *
- *  Created on: Jul 29, 2025
- *      Author: Khoi Anh Nguyen
+ *  Created on: Jul 30, 2025
+ *      Author: Admin
  */
+
 #ifndef INC_USBLIB_HPP_
 #define INC_USBLIB_HPP_
-extern "C"{
-	#include "stm32g4xx_hal_pcd.h"
-	#include "stm32g4xx_hal.h"
-}
+
+#include "stm32g4xx_hal.h"
+#include "stm32g4xx_hal_pcd.h"
+#include <stdio.h>
+
+void HAL_PCD_DataOutStageCallback (PCD_HandleTypeDef * hpcd, uint8_t epnum);
 
 class Usb_Coms{
 public:
@@ -18,13 +21,16 @@ public:
 
 //Functions
 	HAL_StatusTypeDef Usb_Init();
-	HAL_StatusTypeDef Usb_Send();
-	HAL_StatusTypeDef Usb_Recieve();
+	void Usb_Send();
+	void Usb_Recieve();
 
 private:
 //Variables
 	PCD_HandleTypeDef * usb_instance;
 
 };
+
+
+
 
 #endif /* INC_USBLIB_HPP_ */
