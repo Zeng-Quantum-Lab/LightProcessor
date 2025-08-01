@@ -12,17 +12,22 @@
 #include "stm32g4xx_hal_pcd.h"
 #include <stdio.h>
 
-void HAL_PCD_DataOutStageCallback (PCD_HandleTypeDef * hpcd, uint8_t epnum);
-
 class Usb_Coms{
 public:
 //Declaration
 	Usb_Coms(PCD_HandleTypeDef * hpcd_USB_FS) {usb_instance = hpcd_USB_FS;};
 
+//Variables
+	constexpr static uint8_t IN1EP = 0x81;
+	constexpr static uint8_t OUT1EP = 0x01;
+	uint8_t Data_Out_Buffer[64];
+	uint8_t Data_In_Buffer[64];
+
 //Functions
 	HAL_StatusTypeDef Usb_Init();
-	void Usb_Send();
-	void Usb_Recieve();
+	void ProcessSetupStage(PCD_HandleTypeDef *hpcd);
+	void Usb_Send(PCD_HandleTypeDef *hpcd, uint8_t epnum);
+	void Usb_Recieve(PCD_HandleTypeDef *hpcd, uint8_t epnum);
 
 private:
 //Variables
