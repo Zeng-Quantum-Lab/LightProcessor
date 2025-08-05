@@ -17,21 +17,29 @@ public:
 //Declaration
 	Usb_Coms(PCD_HandleTypeDef * hpcd_USB_FS) {usb_instance = hpcd_USB_FS;};
 
+	struct{
+		uint8_t bmRequestType; //Direction, Type, Recipient
+		uint8_t bRequest;      //Specific Request
+		uint16_t wValue;       //Request-Specific parameter
+		uint16_t wIndex;       //Endpoint Index
+		uint16_t wLength;      //Number of bytes in Data Stage
+	} Usb_Packet;
+
+
+
 //Variables
 	constexpr static uint8_t IN1EP = 0x81;
 	constexpr static uint8_t OUT1EP = 0x01;
-	uint8_t Data_Out_Buffer[64];
-	uint8_t Data_In_Buffer[64];
+	uint8_t Receive_Buffer[64];
+	uint8_t Transmit_Buffer[64];
+	PCD_HandleTypeDef * usb_instance;
 
 //Functions
 	HAL_StatusTypeDef Usb_Init();
-	void ProcessSetupStage(PCD_HandleTypeDef *hpcd);
-	void Usb_Send(PCD_HandleTypeDef *hpcd, uint8_t epnum);
-	void Usb_Recieve(PCD_HandleTypeDef *hpcd, uint8_t epnum);
 
 private:
 //Variables
-	PCD_HandleTypeDef * usb_instance;
+
 
 };
 

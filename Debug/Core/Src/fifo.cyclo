@@ -1,0 +1,6 @@
+../Core/Src/fifo.c:7:5:fifo_empty	2
+../Core/Src/fifo.c:17:5:fifo_full	2
+../Core/Src/fifo.c:30:6:fifo_insert	4
+../Core/Src/fifo.c:46:6:fifo_uninsert	4
+../Core/Src/fifo.c:61:5:fifo_newline	3
+../Core/Src/fifo.c:73:6:fifo_remove	3

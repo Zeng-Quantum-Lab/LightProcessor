@@ -8,6 +8,8 @@
 #ifndef INC_RUN_HPP_
 #define INC_RUN_HPP_
 
+#include "stm32g4xx_hal.h"
+#include "usblib.hpp"
 
 
 

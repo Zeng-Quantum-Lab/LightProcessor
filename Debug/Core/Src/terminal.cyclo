@@ -1,0 +1,2 @@
+../Core/Src/terminal.c:4:5:__io_putchar	4
+../Core/Src/terminal.c:15:5:__io_getchar	1

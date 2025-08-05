@@ -1,0 +1,6 @@
+../Core/Inc/usblib.hpp:18:2:Usb_Coms::Usb_Coms(PCD_HandleTypeDef*)	16	static
+../Core/Src/run.cpp:16:6:void ProcessSetupStage(PCD_HandleTypeDef*)	16	static
+../Core/Src/run.cpp:20:6:void Usb_Send(PCD_HandleTypeDef*, uint8_t)	16	static
+../Core/Src/run.cpp:24:6:void Usb_Coms::Usb_Recieve(PCD_HandleTypeDef*, uint8_t)	24	static
+../Core/Src/run.cpp:26:1:void __static_initialization_and_destruction_0()	8	static
+../Core/Src/run.cpp:26:1:cpp)	8	static

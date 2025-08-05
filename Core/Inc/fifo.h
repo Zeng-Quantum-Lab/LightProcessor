@@ -1,6 +1,8 @@
 #ifndef __FIFO_H__
 #define __FIFO_H__
 
+#include <stdint.h>
+
 struct fifo {
     char buffer[128]; // circular buffer for the fifo
     volatile uint8_t head; // the first thing to remove from the fifo

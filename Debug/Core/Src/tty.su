@@ -1,0 +1,6 @@
+../Core/Src/tty.c:12:13:putstr	16	static
+../Core/Src/tty.c:22:6:insert_echo_char	24	static
+../Core/Src/tty.c:56:5:line_buffer_getchar	16	static
+../Core/Src/tty.c:72:6:raw_mode	4	static
+../Core/Src/tty.c:78:6:cooked_mode	4	static
+../Core/Src/tty.c:84:5:tty_input_available	8	static
