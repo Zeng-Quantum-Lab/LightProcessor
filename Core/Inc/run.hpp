@@ -11,7 +11,7 @@
 #include "stm32g4xx_hal.h"
 #include "usblib.hpp"
 
-
+void run();
 
 
 #endif /* INC_RUN_HPP_ */

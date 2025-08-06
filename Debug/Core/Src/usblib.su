@@ -1,1 +1,2 @@
-../Core/Src/usblib.cpp:11:19:HAL_StatusTypeDef Usb_Coms::Usb_Init()	16	static
+../Core/Src/usblib.cpp:10:19:HAL_StatusTypeDef Usb_Com::Usb_Init()	16	static
+../Core/Src/usblib.cpp:25:19:HAL_StatusTypeDef Usb_Com::OpenEndpoint(uint8_t)	24	static
