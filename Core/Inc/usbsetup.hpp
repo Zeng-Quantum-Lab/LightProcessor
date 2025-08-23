@@ -9,9 +9,15 @@
 #define INC_USBSETUP_HPP_
 #include "stm32g4xx_hal.h"
 
-class Usb_Setup{
+class Usb_Setup {
 public:
 	Usb_Setup(PCD_HandleTypeDef * hpcd_USB_FS) {usb_instance = hpcd_USB_FS;}
+
+	typedef enum {
+		SquareWave = 0,
+		SineWave = 1
+	} DeviceMode;
+
 	typedef enum {
 		Standard = 0,
 		Class = 1,
@@ -47,7 +53,7 @@ public:
 	typedef struct{
 		uint8_t bLength = 18;
 		uint8_t BDescriptorType = 0x01;
-		uint16_t bcdUSB;
+		uint16_t bcdUSB = 0x0200; //USB 2.0
 		uint8_t bDeviceClass;
 		uint8_t bDeviceSubClass;
 		uint8_t bDeviceProtocol;
@@ -69,6 +75,7 @@ public:
 		uint16_t wLength;      			//Number of bytes in Data Stage
 	} SetupUsbPacket;
 
+	bool isSquareWave = true;
 	PCD_HandleTypeDef * usb_instance;
 };
 

@@ -10,9 +10,7 @@
 
 #include "stm32g4xx_hal.h"
 #include "stm32g4xx_hal_pcd.h"
-#include "usbsetup.hpp"
 #include <stdio.h>
-
 
 class Usb_Com{
 public:
@@ -76,8 +74,6 @@ public:
 private:
 
 //Functions
-
-
 
 };
 

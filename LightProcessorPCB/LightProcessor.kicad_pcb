@@ -24178,7 +24178,7 @@
 	(footprint "LM324N_NOPB:DIP825W47P254L1917H533Q14"
 		(layer "F.Cu")
 		(uuid "98063c7d-cdbf-4cd2-bb82-1d91787d8733")
-		(at 180.5 155.0883 90)
+		(at 180.735 155.0883 90)
 		(property "Reference" "U2"
 			(at -0.1225 -10.46025 90)
 			(layer "F.SilkS")
